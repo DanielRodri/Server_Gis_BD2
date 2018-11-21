@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A distributed databases manager",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Jafeth Vásquez & Juan Rafael Valerio",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "exec-php": "0.0.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "pg": "^7.5.0"
+  }
+}
